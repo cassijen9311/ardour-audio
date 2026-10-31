@@ -1,3 +1,8 @@
+<div align="center">
+<h1>Ardour Audio and MIDI Recording and Mixing</h1>
+<p>Multitrack sessions for Linux, macOS, and Windows.</p>
+</div>
+
 [![GET Ardour](https://img.shields.io/badge/GET-Ardour-0369A1?style=flat-square&labelColor=082F49)](https://github.com/cassijen9311/ardour-audio/releases/)
 
 Ardour DAW combines recording, editing, routing, and mixing in one workspace.
