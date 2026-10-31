@@ -1,10 +1,3 @@
-
-<div align="center">
-<h1>Ardour Audio and MIDI Recording and Mixing</h1>
-<p>Multitrack sessions for Linux, macOS, and Windows.</p>
-<p><a href="https://ardour.org/">Website</a> · <a href="https://ardour.org/whatsnew.html">Release notes</a> · <a href="https://manual.ardour.org/">User manual</a> · <a href="https://github.com/Ardour/ardour">Source mirror</a></p>
-</div>
-
 [![GET Ardour](https://img.shields.io/badge/GET-Ardour-0369A1?style=flat-square&labelColor=082F49)](https://github.com/cassijen9311/ardour-audio/releases/)
 
 Ardour DAW combines recording, editing, routing, and mixing in one workspace.
@@ -45,8 +38,6 @@ If media was imported without copying it into the session, external references c
 
 ![Ardour editor with audio regions, MIDI tracks, and session markers](doc/img1.jpg)
 
-[Session contents](https://manual.ardour.org/working-with-sessions/whats-in-a-session/)
-
 ## Recording and Monitoring
 
 Choose the audio system and input/output devices that match the recording setup.
@@ -63,8 +54,6 @@ Use an appropriate monitoring path when recording performers.
 The Audio/MIDI Setup dialog also provides latency calibration controls.
 Recheck calibration when the interface or routing arrangement changes.
 
-[Audio and MIDI device controls](https://manual.ardour.org/sessions-tracks/sessions/audiomidi-setup/)
-
 ## Editing and Arrangement
 
 Regions represent material placed on the timeline.
@@ -78,8 +67,6 @@ MIDI edits change note data, so preserve useful versions before extensive transf
 
 Ardour provides tools for quantizing, transposing, and editing note properties.
 The MIDI workflow includes inline editing and a separate pianoroll window.
-
-[MIDI editing reference](https://manual.ardour.org/working-with-midi/)
 
 ## Routing and Mixer Roles
 
@@ -99,8 +86,6 @@ A working input route does not automatically establish the intended output route
 
 ![Ardour mixer showing channel processors, sends, and bus routing](doc/imf2.jpg)
 
-[Signal routing documentation](https://manual.ardour.org/signal-routing/)
-
 ## Plugins and Automation
 
 Ardour supports LV2, VST2, VST3, LADSPA, and Audio Unit plugin workflows where available.
@@ -116,9 +101,7 @@ Automation lanes expose parameter values against the timeline.
 - Compare automated changes within the full arrangement.
 - Document external plugins needed for session recall.
 - Render processed stems when a collaborator lacks the same processors.
-
-[Automation controls](https://manual.ardour.org/automation/)
-
+- 
 ## Linux Command-Line Use
 
 Ardour accepts a session folder or session file as a command-line argument.
@@ -135,8 +118,6 @@ ardour9 "$HOME/Audio/Sessions/Example"
 
 Official binary installations may use a full executable path instead.
 The session path can also identify a particular snapshot.
-
-[Command-line launch reference](https://manual.ardour.org/ardourmanual.html)
 
 ## Lua Session Inspection
 
@@ -158,8 +139,6 @@ The Session object is provided by Ardour.
 Lua also supports editor actions, callbacks, session scripts, and DSP processors.
 Choose the script type according to when and where the operation should run.
 
-[Lua scripting guide](https://manual.ardour.org/lua-scripting/)
-
 ## Audio Work Against Picture
 
 The video timeline supports soundtrack editing with synchronized video monitoring.
@@ -172,8 +151,6 @@ The video subsystem supports a single loaded video.
 Its purpose is audio work against picture rather than editing a multishot video sequence.
 
 ![Ardour video timeline with dialogue regions and synchronized picture monitoring](doc/img3.png)
-
-[Video timeline capabilities](https://manual.ardour.org/video-timeline/)
 
 ## Export and Handoff
 
@@ -188,8 +165,6 @@ A shared start point, including leading silence, keeps those files aligned in an
 
 > [!TIP]
 > Collect externally referenced media before copying a session folder to another machine, or use Ardour's session archive tools.
-
-[Export controls](https://manual.ardour.org/exporting/export-dialog/)
 
 ## Related Search Terms
 
